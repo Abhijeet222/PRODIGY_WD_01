@@ -3,24 +3,89 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Navigation bar</title>
+    <title>Amazon</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     
-    <div id="main">
-        <div id="page1">
-            <div class="nav-bar">
-                <ul>
-                    <li>Home</li>
-                    <li>Menu</li>
-                    <li>About us</li>
-                    <li>Contact us</li>
-                </ul>
-            </div>
-        </div>
-    </div> 
+    <div id="page1">
 
-    <script src="script.js"></script>
+    
+  <header>
+    <div class="navbar">
+        <div class="nav-logo border">
+            <div class="logo"></div>
+        </div>
+
+       <!-- Box2  -->
+        <div class="nav-address border">
+          <p class="add-first">Deliver to</p>
+          <div class="add-icon">
+            <i class="fa-solid fa-location-dot"></i>
+            <p class="add-second">india</p>
+          </div>
+        </div>
+
+<!-- Box3 -->
+        <div class="nav-search" style="color: black;">
+          <select class="search-select" >
+            <option value="">All</option>
+          </select>
+          <input class="search-input" placeholder ="Search ">
+          <div class="search-icon">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+        </div>
+
+<!-- BOX4         -->
+<div class="nav-signin border">
+  <p><span>Hello, sign in</span></p>
+  <p class="nav-second">Account & List</p>
+    
+</div>
+
+<!-- BOX5 -->
+<div class="nav-return border">
+  <p><span>Return</span></p>
+  <p class="nav-second">&Order</p>
+    
+</div>
+
+<!-- Box 6 -->
+
+<div class="nav-cart border">
+  <i class="fa-solid fa-cart-shopping"></i>
+  cart
+</div>
+
+      </div>
+
+      <div class="pannel">
+        <div class="pannel-all">
+          <i class="fa-solid fa-bars"></i>
+          All
+        </div>
+        <div class="pannel-opt">
+          <p>Today's deal</p>
+          <p>Customer Service</p>
+          <p>Registry</p>
+          <p>Gift cards</p>
+          <p>Sell</p>
+          
+        </div>
+        <div class="pannel-deals">
+          Shops Deal in Electronic
+        </div>
+      </div>
+  </header>
+
+</div>
+
+<div id="page3"></div>
+<div id="page4"></div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="script.js"></script>
 </body>
 </html>
